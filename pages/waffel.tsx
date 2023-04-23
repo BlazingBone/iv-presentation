@@ -5,7 +5,7 @@ type waffelProps = {
     
 };
 
-const waffel:React.FC<waffelProps> = () => {
+const Waffel:React.FC<waffelProps> = () => {
     
     return (
         <div className='w-full h-screen bg-[#311664d3]'>
@@ -15,4 +15,4 @@ const waffel:React.FC<waffelProps> = () => {
         </div>
     )
 }
-export default waffel;
+export default Waffel;

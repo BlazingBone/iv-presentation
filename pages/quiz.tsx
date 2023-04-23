@@ -10,7 +10,7 @@ type quizProps = {
     
 };
 
-const quiz:React.FC<quizProps> = () => {
+const Quiz:React.FC<quizProps> = () => {
     
     const [question, setQuestion] = useState(1);
     const [answers,setAnswers] = useState({answer1: "", answer2: "", answer3: "", answer4: "", answer5: ""})
@@ -81,4 +81,4 @@ const quiz:React.FC<quizProps> = () => {
     </div>
     )
 }
-export default quiz;
+export default Quiz;
