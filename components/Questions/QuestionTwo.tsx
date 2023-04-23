@@ -9,7 +9,7 @@ const QuestionTwo:React.FC<QuestionTwoProps> = ({setAnswer}) => {
     return (
     <>
         <h3 className='text-3xl'>
-                    Was ist "Padding" und wie viele Padding-Attribute gibt es?
+                    Was ist Padding und wie viele Padding-Attribute gibt es?
                 </h3>
 
                 <div className='mt-[20vh] flex flex-col lg:flex-row items-center space-y-4 lg:space-y-0 lg:justify-evenly'>
